@@ -1,58 +1,52 @@
-# bank_hollowen
-### `README.md`
+# 🎃 Halloween Special Offer — Legend Cinema & Huokaing Thara Bank
 
-# 🎃 Halloween Special Event — Huokaing Thara Bank & Legend Cinema
+An interactive, responsive promotional landing page for the **31 October Halloween Day Event** hosted by **Legend Cinema** in partnership with **Huokaing Thara Bank**.
 
-Welcome to the official web portal for the **Huokaing Thara Bank & Legend Cinema Halloween Special Event**! This responsive, cyberpunk-themed web application features bilingual (Khmer & English) event details, an interactive live countdown timer, an automated AI Web Speech voice reader, dynamic Halloween Matrix canvas background effects, and real-time event telemetry logs.
+## 📢 Event Overview
 
-## 📌 Event Highlights
+* **Discount Offer:** **50% OFF** on all Legend Cinema movie tickets for all customers in collaboration with **Huokaing Thara Bank**.
+* **Event Date:** 31 October
+* **Event Location:** In front of the Royal Palace, Kingdom of Cambodia 🇰🇭
+* **Activities:** Dress up / makeup as ghosts, interactive fun zones, and movie celebrations!
+* **Languages Supported:** English & Khmer (ភាសាខ្មែរ)
 
-* **🎟️ 50% Ticket Discount:** Special 50% discount on all Legend Cinema movie tickets on **October 31st**.
-* **👻 Ghost Makeup & Costume Party:** Special party and meetup located in front of the **Royal Palace, Kingdom of Cambodia**.
+## 📁 Repository Structure
 
-## ✨ Key Technical Features
+├── index.html   # Main HTML structure with English & Khmer bilingual support
+├── style.css    # Custom dark Halloween theme, animations, and typography
+└── script.js   # Interactivity and event notification handlers
 
-1. **Bilingual Announcement Grid:** Structured event cards presented in both Khmer (`km-KH`) and English (`en-US`).
-2. **AI Voice Presentation Reader:** Powered by the native browser Web Speech API (`speechSynthesis`) with audio waveform visualizer animations.
-3. **Interactive Countdown Clock:** Real-time event countdown targeting **October 31st**.
-4. **Halloween Matrix Canvas:** Dynamic HTML5 Canvas background animation rendering event-themed keyword streams.
-5. **Responsive Cross-Platform UI:** Centered glassmorphism layout optimized for both mobile (Android) touchscreens and desktop screens.
+## ✨ Features
 
-## 📂 Project Structure
+* **Bilingual Interface:** Fully localized content in both Khmer and English.
+* **Spooky Cyberpunk / Halloween Styling:** High-contrast dark theme featuring glowing typography, floating bat animations, and branded partner badges.
+* **Responsive Layout:** Optimized across mobile, tablet, and desktop devices.
+* **Google Fonts Integration:** Utilizes `Kantumruy Pro` for smooth Khmer rendering alongside custom English typography.
+* 
+## 🚀 Getting Started
 
-halloween-portal/
-├── index.html       # Application markup and text content
-├── style.css        # Responsive layout, glassmorphism theme, and animations
-└── app.js           # Matrix canvas logic, AI voice speech synthesizer, and countdown timer
+### Prerequisites
 
-## 🚀 How to Run the Project
+No external dependencies or server setup required. All scripts and styles run natively in modern web browsers.
 
-1. **Clone the Repository:**
+### Local Setup
 
-git clone [https://github.com/your-username/halloween-portal.git](https://github.com/your-username/halloween-portal.git)
+1. **Clone the repository:**
 
-2. **Navigate into the Directory:**
+git clone [https://github.com/your-username/halloween-legend-bank-announcement.git](https://github.com/your-username/halloween-legend-bank-announcement.git
 
-cd halloween-portal
+2. **Navigate into the directory:**
 
-3. **Launch the Application:**
-* Open `index.html` directly in any modern web browser (Google Chrome, Microsoft Edge, Firefox, or Safari).
-* Or run using the **Live Server** extension in Visual Studio Code.
+cd halloween-legend-bank-announcement
 
-## 🛠️ Built With
+3. **Open in browser:**
+Open `index.html` directly in your browser or serve via a lightweight HTTP server (e.g., VS Code Live Server or `python3 -m http.server`).
 
-* **HTML5:** Semantic document markup.
-* **CSS3:** Modern CSS Grid, Flexbox, glassmorphism backdrop filters, and CSS keyframe animations.
-* **JavaScript (ES6+):** HTML5 Canvas API, Web Speech API (`SpeechSynthesisUtterance`), and DOM manipulation.
+## 🤝 Partnership
 
-### Implementation Instructions
+* **Legend Cinema** — Premier Cinema Chain in Cambodia
+* **Huokaing Thara Bank** — Enterprise Banking Partner
 
-1. Create a file named `README.md` in the root folder of your project repository.
-2. Copy the code block above and paste it inside `README.md`.
-3. Save the file and commit it to GitHub using:
+## 📄 License
 
-   git add README.md
-   git commit -m "Add project README documentation"
-   git push origin main
-
-```
+This project is open source and available under the [MIT License](https://www.google.com/search?q=LICENSE).
