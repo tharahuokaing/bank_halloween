@@ -19,7 +19,7 @@ body {
     font-family: 'Kantumruy Pro', 'Poppins', sans-serif;
     min-height: 100vh;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     padding: 20px;
     overflow-x: hidden;
@@ -37,13 +37,42 @@ body {
     z-index: -1;
 }
 
+/* Top Hero Section Styles */
+.hero-fullscreen {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto 25px auto;
+    text-align: center;
+}
+
+.img-full-cover {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 16px;
+    border: 2px solid var(--primary-orange);
+    box-shadow: 0 0 25px rgba(255, 102, 0, 0.4), 0 0 10px rgba(106, 13, 173, 0.5);
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.img-full-cover:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 35px rgba(255, 102, 0, 0.6), 0 0 15px rgba(106, 13, 173, 0.7);
+}
+
 .container {
     max-width: 800px;
     width: 100%;
     text-align: center;
 }
 
-/* Header */
+/* Header Banner */
 .banner-header .badge {
     background: var(--primary-orange);
     color: #000;
@@ -71,7 +100,7 @@ body {
     margin-bottom: 25px;
 }
 
-/* Main Card */
+/* Main Announcement Card */
 .card {
     background: var(--card-bg);
     border: 2px solid var(--primary-orange);
@@ -141,7 +170,7 @@ body {
     margin: 25px 0;
 }
 
-/* Event Info */
+/* Event Info Box */
 .event-info {
     display: flex;
     justify-content: space-around;
@@ -194,7 +223,7 @@ body {
     background: linear-gradient(45deg, #ff7700, #ff3d00);
 }
 
-/* Spooky Animations */
+/* Floating Spooky Animations */
 .spooky-decorations {
     position: relative;
     pointer-events: none;
@@ -230,10 +259,12 @@ body {
     50% { transform: translateY(-20px) rotate(10deg); }
 }
 
-/* Responsive adjustments */
+/* Responsive Styles */
 @media (max-width: 600px) {
+    body { padding: 12px; }
     .banner-header h1 { font-size: 2.5rem; }
     .banner-header h2 { font-size: 1.3rem; }
     .event-info { flex-direction: column; gap: 15px; }
     .card { padding: 20px; }
+    .bat-1, .bat-2 { display: none; } /* Hide floating bats on mobile to prevent overflow */
 }
