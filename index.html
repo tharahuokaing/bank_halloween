@@ -1,112 +1,88 @@
 <!DOCTYPE html>
 <html lang="km">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HALLOWEEN SPECIAL EVENT | HUOKAING THARA BANK & LEGEND CINEMA</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halloween Special Offer - Legend Cinema & Huokaing Thara Bank</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for Khmer & English -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanten&family=Kantumruy+Pro:wght@400;600;700&family=Creepster&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <!-- Halloween Matrix Canvas Background -->
-  <canvas id="halloween-canvas"></canvas>
+    <div class="background-overlay"></div>
 
-  <div class="announcement-wrapper">
-    <div class="card-glass">
-      
-      <!-- Header -->
-      <header class="portal-header">
-        <div class="badge-box">
-          <div class="spinning-node"></div>
-          <div>
-            <span class="sub-tag">HUOKAING THARA BANK &amp; LEGEND CINEMA COOPERATION</span>
-            <h1>HALLOWEEN DAY SPECIAL PROMOTION &amp; EVENT</h1>
-          </div>
-        </div>
-        <div id="countdown-clock">
-          EVENT COUNTDOWN: <span id="timer">Calculating...</span>
-        </div>
-      </header>
+    <main class="container">
+        <!-- Header Banner -->
+        <header class="banner-header">
+            <span class="badge">🎃 HALLOWEEN SPECIAL 👻</span>
+            <h1>50% OFF TICKETS</h1>
+            <h2>ការបញ្ចុះតម្លៃ ៥០% លើសំបុត្រកុន</h2>
+        </header>
 
-      <!-- Hero Banner -->
-      <section class="banner-container">
-        <div class="banner-overlay">
-          <h2>🎃 50% DISCOUNT &amp; HALLOWEEN GHOST PARTY 👻</h2>
-          <p>Join us at the Royal Palace Kingdom of Cambodia on October 31st!</p>
-        </div>
-      </section>
-
-      <!-- AI Voice Controls -->
-      <section class="ai-reader-panel">
-        <h3>🎙️ Voice Presentation Reader</h3>
-        <div class="visualizer-container">
-          <div class="bar"></div>
-          <div class="bar"></div>
-          <div class="bar"></div>
-          <div class="bar"></div>
-          <div class="bar"></div>
-          <div class="bar"></div>
-        </div>
-        <div class="btn-group">
-          <button class="sys-btn" onclick="playVoiceAnnouncement('km')">🇰🇭 អានជាភាសាខ្មែរ (Khmer)</button>
-          <button class="sys-btn" onclick="playVoiceAnnouncement('en')">🇺🇸 Read in English</button>
-          <button class="sys-btn stop-btn" onclick="stopVoiceReader()">🛑 Stop Reader</button>
-        </div>
-        <div id="transcript-box" class="transcript-screen">
-          System Standby. Click a button above to listen to the event announcement.
-        </div>
-      </section>
-
-      <!-- Bilingual Notification Grid -->
-      <section class="notice-grid">
-        
-        <!-- Khmer Notice -->
-        <div class="notice-box khmer-box">
-          <h3>🇰🇭 សេចក្តីជូនដំណឹងពិធីបុណ្យ Halloween (Khmer)</h3>
-          <div class="notice-content">
-            🎉 <strong>សេចក្តីប្រកាសពិសេស!</strong> ធនាគារ <strong>ហួកាំង ថារ៉ា (Huokaing Thara Bank)</strong> សហការជាមួយ <strong>រោងភាពយន្ត Legend Cinema</strong> មានកិត្តិយសសូមជូនដំណឹងដល់អតិថិជនទាំងអស់មេត្តាជ្រាបថា៖
-            
-            <div class="highlight-box">
-              🎟️ <strong>ការបញ្ចុះតម្លៃ ៥០% (50% OFF):</strong><br>
-              នៅថ្ងៃទី <strong>៣១ ខែតុលា (31 October)</strong> ខាងមុខនេះ រាល់ការទិញសំបុត្រកុន Legend Cinema ទាំងអស់នឹងទទួលបានការបញ្ចុះតម្លៃរហូតដល់ <strong>៥០%</strong> សម្រាប់អតិថិជនទាំងអស់!
+        <!-- Main Announcement Box -->
+        <section class="card">
+            <div class="partners-logo">
+                <span class="brand legend">LEGEND CINEMA</span>
+                <span class="x">✕</span>
+                <span class="brand bank">HUOKAING THARA BANK</span>
             </div>
 
-            <div class="highlight-box party-box">
-              👻 <strong>កម្មវិធីសប្បាយរីករាយរ៉េបមុខជាខ្មោច (Ghost Makeup Party):</strong><br>
-              កុំភ្លេចចូលរួមទាំងអស់គ្នា! សូមរៀបចំខ្លួន និងតែងមុខជារូបខ្មោច ឬតួអង្គបិសាចដែលអ្នកចូលចិត្ត។ យើងខ្ញុំមានទីតាំងប្រារព្ធពិធីយ៉ាងសប្បាយរីករាយនៅ <strong>ខាងមុខព្រះបរមរាជវាំង នៃព្រះរាជាណាចក្រកម្ពុជា</strong>!
+            <!-- Khmer Section -->
+            <article class="content-block khmer">
+                <h3>📢 សេចក្តីប្រកាសព័ត៌មានពិសេស!</h3>
+                <p>
+                    នៅថ្ងៃទី <strong>៣១ ខែតុលា</strong> ខាងមុខនេះ! ទទួលបានការបញ្ចុះតម្លៃពិសេស <strong>៥០%</strong> លើគ្រប់សំបុត្រកុនទាំងអស់នៅ <strong>Legend Cinema</strong> សម្រាប់អតិថិជនទាំងអស់ ក្រោមសហប្រតិបត្តិការជាមួយ <strong>ធនាគារ ហួកាំង ថារ៉ា</strong> ក្នុងឱកាសព្រឹត្តិការណ៍បុណ្យ Halloween!
+                </p>
+                <p class="highlight-text">
+                    👻 កុំភ្លេចចូលរួមទាំងអស់គ្នា និងតែងមុខជារូបខ្មោច ឬតួអង្គដែលអ្នកចូលចិត្ត! ពួកយើងមានទីតាំងកម្សាន្តដ៏រីករាយ និងរំភើបនៅ <strong>ខាងមុខព្រះបរមរាជវាំង</strong>!
+                </p>
+            </article>
+
+            <hr class="divider">
+
+            <!-- English Section -->
+            <article class="content-block english">
+                <h3>📢 Special Halloween Announcement!</h3>
+                <p>
+                    On <strong>October 31st</strong>! Get an exclusive <strong>50% DISCOUNT</strong> on all movie tickets at <strong>Legend Cinema</strong> for all customers, in collaboration with <strong>Huokaing Thara Bank</strong> for the Halloween Day Event!
+                </p>
+                <p class="highlight-text">
+                    👻 Don't forget to join us and dress up / make up your face as a ghost! We will have a fun & thriller event space setup in front of the <strong>Royal Palace, Kingdom of Cambodia</strong>!
+                </p>
+            </article>
+
+            <!-- Event Details -->
+            <div class="event-info">
+                <div class="info-item">
+                    <span class="icon">📅</span>
+                    <div>
+                        <strong>Date / កាលបរិច្ឆេទ</strong>
+                        <p>31 October / ៣១ តុលា</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <span class="icon">📍</span>
+                    <div>
+                        <strong>Location / ទីតាំង</strong>
+                        <p>In front of Royal Palace / មុខព្រះបរមរាជវាំង</p>
+                    </div>
+                </div>
             </div>
-          </div>
+
+            <button id="cta-button" onclick="handleJoin()">JOIN THE EVENT NOW</button>
+        </section>
+
+        <!-- Floating Bats Effect -->
+        <div class="spooky-decorations">
+            <span class="bat bat-1">🦇</span>
+            <span class="bat bat-2">🦇</span>
+            <span class="pumpkin">🎃</span>
         </div>
+    </main>
 
-        <!-- English Notice -->
-        <div class="notice-box">
-          <h3>🇺🇸 Official Halloween Event Announcement (English)</h3>
-          <div class="notice-content">
-            🎉 <strong>Special Announcement!</strong> <strong>Huokaing Thara Bank</strong> in official cooperation with <strong>Legend Cinema</strong> is thrilled to announce our grand Halloween celebration for all valued customers!
-            
-            <div class="highlight-box">
-              🎟️ <strong>50% DISCOUNT PROMOTION:</strong><br>
-              On <strong>October 31st</strong>, enjoy an exclusive <strong>50% OFF</strong> discount on all Legend Cinema movie tickets when you purchase for Halloween Day!
-            </div>
-
-            <div class="highlight-box party-box">
-              👻 <strong>HALLOWEEN COSTUME & GHOST MAKEUP PARTY:</strong><br>
-              Don't forget to join us all together! Dress up and make up your face as a ghost or monster. We will have a dedicated space full of fun activities located directly in <strong>front of the Royal Palace, Kingdom of Cambodia</strong>!
-            </div>
-          </div>
-        </div>
-
-      </section>
-
-      <!-- Telemetry Live Feed Log -->
-      <footer class="telemetry-footer">
-        <h3>🔴 REAL-TIME EVENT TELEMETRY LOGS</h3>
-        <ul id="telemetry-feed">Initializing Halloween event system...</ul>
-      </footer>
-
-    </div>
-  </div>
-
-  <script src="app.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
